@@ -2,6 +2,7 @@
 
 [![Repository: Mern_SchoolManagementSystem](https://img.shields.io/badge/Repository-Mern__SchoolManagementSystem-blue.svg)](https://github.com/Kri306/Mern_SchoolManagementSystem)
 [![Stack: MERN](https://img.shields.io/badge/Stack-React%20%7C%20Node%20%7C%20Express%20%7C%20MySQL-green.svg)](#tech-stack)
+[![Status: Completed](https://img.shields.io/badge/Status-Completed-success.svg)](#project-overview)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > Comprehensive, modular, and role-based **School Management System (SMS)** engineered with a modern Full-Stack MERN architecture (React.js, Node.js, Express.js, and MySQL with JWT Role-Based Access Control).
