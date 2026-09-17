@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend services for the 4-panel School Management System",
+  "main": "super-admin-api.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:super-admin": "node super-admin-api.js",
+    "start:school-admin": "node school-admin-api.js",
+    "start:staff": "node staff-api.js",
+    "start:student-parent": "node student-parent-api.js",
+    "db:setup": "node database/setup.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.1"
+  }
+}

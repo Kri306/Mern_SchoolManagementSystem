@@ -1,0 +1,22 @@
+{
+  "name": "sms-workspace",
+  "version": "1.0.0",
+  "description": "School Management System root workspace package to run 4 backend and 4 frontend applications",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend:super-admin": "cd frontend/super-admin && npm install",
+    "install:frontend:school-admin": "cd frontend/school-admin && npm install",
+    "install:frontend:staff": "cd frontend/staff && npm install",
+    "install:frontend:student-parent": "cd frontend/student_parent && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend:super-admin && npm run install:frontend:school-admin && npm run install:frontend:staff && npm run install:frontend:student-parent",
+    "start:backend": "cd backend && npm start",
+    "start:backend:super-admin": "cd backend && node super-admin-api.js",
+    "start:backend:school-admin": "cd backend && node school-admin-api.js",
+    "start:backend:staff": "cd backend && node staff-api.js",
+    "start:backend:student-parent": "cd backend && node student-parent-api.js",
+    "start:frontend:super-admin": "cd frontend/super-admin && npm run dev",
+    "start:frontend:school-admin": "cd frontend/school-admin && npm run dev",
+    "start:frontend:staff": "cd frontend/staff && npm run dev",
+    "start:frontend:student-parent": "cd frontend/student_parent && npm run dev"
+  }
+}
